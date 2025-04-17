@@ -4,7 +4,19 @@ A Code to Detect Instagram Accounts Not Following Back
 Input 2 json files listing following and followers as
 downloaded from the Instagram account settings page.
 Output will print a list of usernames for accounts not following back.
-By Annika Feng 2024"""
+
+How to download the json files:
+1. Go to "Accounts Center" then "Your information and permissions".
+2. Click "Download your information".
+3. Click "Download or transfer information".
+4. Click your accounts, and choose all or some as wanted.
+5. Scroll to "Connections" and click "Followers and following".
+6. "Download to device" and include all time for the date range.
+7. Change format to JSON.
+8. Wait for download to finish, with an email notification.
+9. Download information and sort files to "Desktop" or other folder.
+
+By Annika Feng 2025"""
 
 #import libraries needed
 import pandas as pd
