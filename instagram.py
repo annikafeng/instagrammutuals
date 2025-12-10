@@ -16,7 +16,8 @@ How to download the json files:
 8. Wait for download to finish, with an email notification.
 9. Download information and sort files to "Desktop" or other folder.
 
-By Annika Feng 2025"""
+By Annika Feng April 2025
+Updated by Annika Feng December 2025"""
 
 #import libraries needed
 import pandas as pd
@@ -40,8 +41,8 @@ len(following)
 following2 =[]
 
 for each in range(1, len(following)):
-    variable = following[each]['string_list_data'][0]['value']
-    following2.append(variable)
+    variable = following[each]['string_list_data'][0]['href'] #changed from value, 2025
+    following2.append(variable[29:]) #changed from no index, 2025
 
 #print(following2) #if needed
 
